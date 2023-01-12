@@ -49,13 +49,19 @@
 - git commit : staging -> repository
 - git status : 현재 상태 확인
 
-EDITMSG 탈출법
+
+※ 저장하고 진행할 것
+
+
+## EDITMSG 탈출법
 
 - ESC - > :q!
 
-clone 과 파일 다운로드 차이점
+## clone 과 파일 다운로드 차이점
 - clone : .git/ 에 변경사항이 저장되어 있음
 - 파일 다운로드 : 코드만 가져옴(결과만 필요할 때 사용)
+
+
 
 
 
