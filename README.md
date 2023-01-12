@@ -49,6 +49,11 @@
 - git commit : staging -> repository
 - git status : 현재 상태 확인
 
+### ex
+
+1. git add README.md
+2. git commit -m "EDIT"
+3. git push -u origin main
 
 ※ 저장하고 진행할 것
 
