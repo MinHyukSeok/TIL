@@ -1,3 +1,30 @@
+# CLI 단축키
+
+- ls : 목록확인
+
+- clear : 화면 지우기
+
+- mkdir : make directory, 디렉토리 만들기
+    (ex : mkdir 폴더명)
+
+- rmdir : remove directory
+    (ex : rmdir 폴더명)
+    
+- rm -f : 강제 삭제 (recursive)
+- rm -r : 재귀 삭제 (force)
+
+
+- cd : change directory,  디렉토리 이동 (ex : cd 위치)
+- cd .. : 상위 폴더로 이동
+
+- pwd : print working directory, 현재 위치 출력
+
+- bash : CLI 프로그램 
+
+- ctrl + ` : 터미널로 이동
+- ctrl + 1 : 반대
+
+
 # Markdown
 - 텍스트 기반의 가벼운 마크업 언어
   
