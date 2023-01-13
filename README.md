@@ -110,13 +110,13 @@
 
 #### case 3 : add, commit, push 취소
 
+
 [링크](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
 
 
 ## clone 과 파일 다운로드 차이점
 - clone : .git/ 에 변경사항이 저장되어 있음
 - 파일 다운로드 : 코드만 가져옴(결과만 필요할 때 사용)
-
 
 
 # Vim 간단 사용법
