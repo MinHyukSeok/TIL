@@ -75,6 +75,7 @@
 4. repository , 내용들을 모아둔 저장소
 
 - git init : Git 저장소 생성
+- git remote : Git 원격 저장소와 로컬 연결
 - git add : working -> staging
 - git commit : staging -> repository
 - git push (-u origin main) : 원격 저장소에 코드 변경본 업로드
