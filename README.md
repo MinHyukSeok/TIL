@@ -6,7 +6,8 @@
 
 - mkdir : make directory, 디렉토리 만들기
     (ex : mkdir 폴더명)
-
+- touch : 파일 생성
+  
 - rmdir : remove directory
     (ex : rmdir 폴더명)
     
@@ -95,6 +96,9 @@
 
 ※ 저장하고 진행할 것
 
+#### case 3 : add, commit, push 취소
+
+[링크](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
 
 ## EDITMSG 탈출법
 
