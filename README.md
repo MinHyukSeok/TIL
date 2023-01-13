@@ -79,7 +79,7 @@
 - git status : 현재 상태 확인
 - git reset HEAD [파일명] : add 취소
 - git commit --amend : 최근 commit 수정
-- 
+
 
 
 ### ex
