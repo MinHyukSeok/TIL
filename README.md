@@ -69,16 +69,23 @@
 
 
 ## 사용법
-1. working directory , 작업 영역
-2. staging Area, 커밋으로 남기고 싶은 내용
-3. repository , 내용들을 모아둔 저장소
+1. 
+2. working directory , 작업 영역
+3. staging Area, 커밋으로 남기고 싶은 내용
+4. repository , 내용들을 모아둔 저장소
 
 - git init : Git 저장소 생성
 - git add : working -> staging
 - git commit : staging -> repository
+- git push (-u origin main) : 원격 저장소에 코드 변경본 업로드
+- 
+- git pull : 원격 저장소의 내용을 가져와서 현재 브랜치와 병합
 - git status : 현재 상태 확인
 - git reset HEAD [파일명] : add 취소
 - git commit --amend : 최근 commit 수정
+  
+## gitignore 사용법
+- .gitignore 생성후 파일내 숨길 파일명 작성
 
 
 
@@ -122,7 +129,4 @@ ESC -> 명령모드
 - :q : 닫기
 - :wq : 저장하고 닫기
 - :q! : 저장하지 않고 닫기
-
-
-
 
