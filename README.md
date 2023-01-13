@@ -77,10 +77,21 @@
 - git status : 현재 상태 확인
 
 ### ex
-
+#### case 1 : 기존 로컬 파일 생성후 깃 저장소에 올리는 경우
 1. git add README.md
 2. git commit -m "EDIT"
-3. git push -u origin main
+3. git remote add origin https://github.com/<본인 계정>/our-project
+4. git push -u origin main
+
+#### case 2 : 새로운 저장소를 생성하는 경우
+
+1.  echo "# 파일명" >> README.md
+2. git init
+3. git add README.md
+4. git commit -m "first commit"
+5. git branch -M main
+6. git remote add origin https://github.com/Jokguking/파일명.git
+7. git push -u origin main
 
 ※ 저장하고 진행할 것
 
