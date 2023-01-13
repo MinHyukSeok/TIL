@@ -69,18 +69,22 @@
 
 
 ## 사용법
-1. 
-2. working directory , 작업 영역
-3. staging Area, 커밋으로 남기고 싶은 내용
-4. repository , 내용들을 모아둔 저장소
+   
+1. working directory , 작업 영역
+2. staging Area, 커밋으로 남기고 싶은 내용
+3. repository , 내용들을 모아둔 저장소
 
 - git init : Git 저장소 생성
 - git remote : Git 원격 저장소와 로컬 연결
 - git add : working -> staging
 - git commit : staging -> repository
+  
 - git push (-u origin main) : 원격 저장소에 코드 변경본 업로드
-- 
+  
 - git pull : 원격 저장소의 내용을 가져와서 현재 브랜치와 병합
+  
+    ※ git push 전 무조건 git pull
+
 - git status : 현재 상태 확인
 - git reset HEAD [파일명] : add 취소
 - git commit --amend : 최근 commit 수정
