@@ -68,14 +68,19 @@
 - 특정 버전으로 남긴다 = commit한다.(3가지 영역을 바탕으로 동작)
 
 
-## 과정
+## 사용법
 1. working directory , 작업 영역
 2. staging Area, 커밋으로 남기고 싶은 내용
 3. repository , 내용들을 모아둔 저장소
 
+- git init : Git 저장소 생성
 - git add : working -> staging
 - git commit : staging -> repository
 - git status : 현재 상태 확인
+- git reset HEAD [파일명] : add 취소
+- git commit --amend : 최근 commit 수정
+- 
+
 
 ### ex
 #### case 1 : 기존 로컬 파일 생성후 깃 저장소에 올리는 경우
@@ -100,15 +105,23 @@
 
 [링크](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
 
-## EDITMSG 탈출법
-
-- ESC - > :q!
 
 ## clone 과 파일 다운로드 차이점
 - clone : .git/ 에 변경사항이 저장되어 있음
 - 파일 다운로드 : 코드만 가져옴(결과만 필요할 때 사용)
 
 
+
+# Vim 간단 사용법
+
+i -> 입력모드
+
+ESC -> 명령모드
+
+- :w : 저장
+- :q : 닫기
+- :wq : 저장하고 닫기
+- :q! : 저장하지 않고 닫기
 
 
 
