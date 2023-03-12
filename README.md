@@ -11,8 +11,8 @@
 - rmdir : remove directory
     (ex : rmdir 폴더명)
     
-- rm -f : 강제 삭제 (recursive)
-- rm -r : 재귀 삭제 (force)
+- rm -f : 강제 삭제 (force)
+- rm -r : 재귀 삭제 (recursive)
 
 
 - cd : change directory,  디렉토리 이동 (ex : cd 위치)
